@@ -7,6 +7,10 @@
 ## Usage
 
 ## Prerequisites
+- Azure
+- Databricks
+- Power BI
+- Tableau
 
 ## Input
 
