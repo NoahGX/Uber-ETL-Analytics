@@ -9,6 +9,7 @@
 ## Prerequisites
 - Python
 - SQL
+- Jupyter Notebook
 
 ## Input
 
