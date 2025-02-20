@@ -10,6 +10,7 @@
 - Python
 - SQL
 - Jupyter Notebook
+- Google BigQuery
 
 ## Input
 
