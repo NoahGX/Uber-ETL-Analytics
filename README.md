@@ -7,10 +7,7 @@
 ## Usage
 
 ## Prerequisites
-- Azure
-- Databricks
-- Power BI
-- Tableau
+- Python
 
 ## Input
 
