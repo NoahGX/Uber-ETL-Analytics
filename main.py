@@ -7,3 +7,5 @@ df.info()
 
 df['tpep_pickup_datetime'] = pd.to_datetime(df['tpep_pickup_datetime'])
 df['tpep_dropoff_datetime'] = pd.to_datetime(df['tpep_dropoff_datetime'])
+
+df.info()
