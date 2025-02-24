@@ -26,3 +26,6 @@ datetime_dim['drop_year'] = datetime_dim['tpep_dropoff_datetime'].dt.year
 datetime_dim['drop_weekday'] = datetime_dim['tpep_dropoff_datetime'].dt.weekday
 
 datetime_dim['datetime_id'] = datetime_dim.index
+
+datetime_dim = datetime_dim[['datetime_id', 'tpep_pickup_datetime', 'pick_hour', 'pick_day', 'pick_month', 'pick_year', 'pick_weekday', 
+                             'tpep_dropoff_datetime', 'drop_hour', 'drop_day', 'drop_month', 'drop_year', 'drop_weekday' ]]
