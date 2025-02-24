@@ -22,3 +22,5 @@ datetime_dim['drop_day'] = datetime_dim['tpep_pickup_datetime'].dt.day
 datetime_dim['drop_month'] = datetime_dim['tpep_pickup_datetime'].dt.month
 datetime_dim['drop_year'] = datetime_dim['tpep_pickup_datetime'].dt.year
 datetime_dim['drop_weekend'] = datetime_dim['tpep_pickup_datetime'].dt.weekend
+
+datetime_dim['datetime_id'] = datetime_dim.index
