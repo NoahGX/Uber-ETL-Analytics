@@ -15,12 +15,12 @@ datetime_dim['pick_hour'] = datetime_dim['tpep_pickup_datetime'].dt.hour
 datetime_dim['pick_day'] = datetime_dim['tpep_pickup_datetime'].dt.day
 datetime_dim['pick_month'] = datetime_dim['tpep_pickup_datetime'].dt.month
 datetime_dim['pick_year'] = datetime_dim['tpep_pickup_datetime'].dt.year
-datetime_dim['pick_weekend'] = datetime_dim['tpep_pickup_datetime'].dt.weekend
+datetime_dim['pick_weekday'] = datetime_dim['tpep_pickup_datetime'].dt.weekday
 
 datetime_dim['drop_hour'] = datetime_dim['tpep_pickup_datetime'].dt.hour
 datetime_dim['drop_day'] = datetime_dim['tpep_pickup_datetime'].dt.day
 datetime_dim['drop_month'] = datetime_dim['tpep_pickup_datetime'].dt.month
 datetime_dim['drop_year'] = datetime_dim['tpep_pickup_datetime'].dt.year
-datetime_dim['drop_weekend'] = datetime_dim['tpep_pickup_datetime'].dt.weekend
+datetime_dim['drop_weekday'] = datetime_dim['tpep_pickup_datetime'].dt.weekday
 
 datetime_dim['datetime_id'] = datetime_dim.index
