@@ -29,3 +29,11 @@ datetime_dim['datetime_id'] = datetime_dim.index
 
 datetime_dim = datetime_dim[['datetime_id', 'tpep_pickup_datetime', 'pick_hour', 'pick_day', 'pick_month', 'pick_year', 'pick_weekday', 
                              'tpep_dropoff_datetime', 'drop_hour', 'drop_day', 'drop_month', 'drop_year', 'drop_weekday' ]]
+
+passenger_count_dim = df[['passenger_count']].drop_duplicates().reset_index(drop=True)
+passenger_count_dim['passenger_count_id'] = passenger_count_dim.index
+passenger_count_dim = passenger_count_dim[['passenger_count_id', 'passenger_count']]
+
+trip_distance_dim = df[['trip_distance']].drop_duplicates().reset_index(drop=True)
+trip_distance_dim['trip_distance_id'] = trip_distance_dim.index
+trip_distance_dim = trip_distance_dim[['trip_distance_id', 'trip_distance']]
