@@ -46,3 +46,8 @@ payment_type_name = {
   5:"Unknown",
   6:"Voided trip"
 }
+
+payment_type_dim = df[['payment_type']].drop_duplicates().reset_index(drop=True)
+payment_type_dim['payment_type_id'] = payment_type_dim.index
+payment_type_dim['payment_type_name'] = payment_type_dim['payment_type'].map(payment_type_name)
+payment_type_dim = payment_type_dim[['payment_type_id','payment_type','payment_type_name']]
