@@ -51,3 +51,15 @@ payment_type_dim = df[['payment_type']].drop_duplicates().reset_index(drop=True)
 payment_type_dim['payment_type_id'] = payment_type_dim.index
 payment_type_dim['payment_type_name'] = payment_type_dim['payment_type'].map(payment_type_name)
 payment_type_dim = payment_type_dim[['payment_type_id','payment_type','payment_type_name']]
+
+fact_table = df.merge(passenger_count_dim, on='passenger_count') \
+  .merge(trip_distance_dim, on='trip_distance') \
+  .merge(rate_code_dim, on='RatecodeID') \
+  .merge(pickup_location_dim, on=['pickup_longitude', 'pickup_latitude']) \
+  .merge(dropoff_location_dim, on=['dropoff_longitude', 'dropoff_latitude'])\
+  .merge(datetime_dim, on=['tpep_pickup_datetime','tpep_dropoff_datetime']) \
+  .merge(payment_type_dim, on='payment_type') \
+  [['VendorID', 'datetime_id', 'passenger_count_id',
+    'trip_distance_id', 'rate_code_id', 'store_and_fwd_flag', 'pickup_location_id', 'dropoff_location_id',
+    'payment_type_id', 'fare_amount', 'extra', 'mta_tax', 'tip_amount', 'tolls_amount',
+    'improvement_surcharge', 'total_amount']]
