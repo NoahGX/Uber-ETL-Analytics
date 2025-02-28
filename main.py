@@ -38,6 +38,11 @@ trip_distance_dim = df[['trip_distance']].drop_duplicates().reset_index(drop=Tru
 trip_distance_dim['trip_distance_id'] = trip_distance_dim.index
 trip_distance_dim = trip_distance_dim[['trip_distance_id', 'trip_distance']]
 
-passenger_count_dim.head()
-
-trip_distance_dim.head()
+payment_type_name = {
+  1:"Credit card",
+  2:"Cash",
+  3:"No charge",
+  4:"Dispute",
+  5:"Unknown",
+  6:"Voided trip"
+}
