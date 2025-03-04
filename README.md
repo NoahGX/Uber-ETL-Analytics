@@ -33,3 +33,16 @@ This project aims to perform data analytics on Uber data using modern data engin
 - **Python Libraries**: Pandas and Google Cloud libraries installed for data processing and interaction with GCP services.
 - **Google Cloud Platform Account**: Access to GCP services like Storage, Compute Engine, and BigQuery.
 - **Mage Installation**: Mage data pipeline tool installed for orchestrating ETL processes.
+
+## Input
+The project utilizes the TLC Trip Record Data, which includes yellow and green taxi trip records.
+These records capture:
+    - Pick-up and drop-off dates/times
+    - Pick-up and drop-off locations
+    - Trip distances
+    - Itemized fares
+    - Rate types
+    - Payment types
+    - Driver-reported passenger counts
+The specific dataset used in this project can be found here:
+More information about the dataset is available on the NYC Taxi and Limousine Commission website.
