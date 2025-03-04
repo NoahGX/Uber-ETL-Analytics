@@ -13,18 +13,14 @@ This project aims to perform data analytics on Uber data using modern data engin
 1. **Set Up GCP Services**:
     - Create a GCP project and enable the necessary APIs for Storage, Compute Engine, and BigQuery.
     - Set up a Compute Instance to run the ETL processes.
-
 2. **Install Required Tools**:
     - On the Compute Instance, install Python and pip.
     - Install Mage AI for orchestrating data pipelines.
     - Install any necessary Python libraries such as Pandas and Google Cloud libraries.
-
 3. **Configure Mage Pipeline**:
     - Define the ETL pipeline using Mage-AI to extract data from GCP Storage and transform it.
-
 4. **Execute the Pipeline**:
     - Run the Mage pipeline to process the Uber data and load it into BigQuery.
-
 5. **Visualize Data**:
     - Connect Looker Studio to BigQuery and create dashboards to visualize the analytics.
 
@@ -35,8 +31,8 @@ This project aims to perform data analytics on Uber data using modern data engin
 - **Mage Installation**: Mage data pipeline tool installed for orchestrating ETL processes.
 
 ## Input
-The project utilizes the TLC Trip Record Data, which includes yellow and green taxi trip records.
-These records capture:
+The project utilizes the TLC Trip Record Data, which includes yellow and green taxi trip records./
+These records capture:/
     - Pick-up and drop-off dates/times
     - Pick-up and drop-off locations
     - Trip distances
