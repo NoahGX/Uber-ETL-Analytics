@@ -31,9 +31,7 @@ This project aims to perform data analytics on Uber data using modern data engin
 - **Mage Installation**: Mage data pipeline tool installed for orchestrating ETL processes.
 
 ## Input
-The project utilizes the TLC Trip Record Data, which includes yellow and green taxi trip records.\
-
-These records capture:
+The project utilizes the TLC Trip Record Data, which includes yellow and green taxi trip records. These records capture:
     - Pick-up and drop-off dates/times
     - Pick-up and drop-off locations
     - Trip distances
@@ -41,11 +39,18 @@ These records capture:
     - Rate types
     - Payment types
     - Driver-reported passenger counts
-The specific dataset used in this project can be found here:\
+
+The specific dataset used in this project can be found here:
+
 More information about the dataset is available on the NYC Taxi and Limousine Commission website.
 
 ## Output
-The processed data is stored in BigQuery for efficient querying and analysis. Key outputs include:
-
-    - **Analytics Table**: A consolidated table in BigQuery that combines various dimensions such as trip details, passenger counts, rates, locations, and payment types.
+The processed data is stored in BigQuery, enabling efficient querying and analysis. Key outputs include:
+    - **Analytics Table**: A consolidated table in BigQuery that combines various dimensions such as trip details, passenger counts, rates, locations, and payment types. citeturn0search2
     - **Visualizations**: Interactive dashboards and reports created in Looker Studio, providing insights into trip patterns, fare distributions, and other relevant metrics.
+
+## 7. Notes
+- **Data Pipeline Implementation**: Detailed implementation of the data pipeline is provided in the Jupyter Notebook: citeturn0search3
+- **Command Reference**: A list of commands used for setting up the environment and tools is available in the `commands.txt` file: citeturn0search4
+- **Data Model**: The project's data model is depicted in the `data_model.jpeg` file, illustrating the relationships between different data entities.
+- **Architecture Diagram**: An overview of the project's architecture is provided in the `architecture.jpg` file, showcasing the integration of various components.
