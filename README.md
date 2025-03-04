@@ -39,7 +39,7 @@ The project utilizes the TLC Trip Record Data, which includes yellow and green t
 - Rate types
 - Payment types
 - Driver-reported passenger counts/
-The specific dataset used in this project can be found here: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page/
+The specific dataset used in this project can be found here: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page /
 More information about the dataset is available on the NYC Taxi and Limousine Commission website.
 
 ## Output
