@@ -33,8 +33,9 @@ This project aims to perform data analytics on Uber data using modern data engin
 ## Input
 The project utilizes the TLC Trip Record Data, which includes yellow and green taxi trip records. These records capture:
     - Pick-up and drop-off dates/times
-    
-    - Pick-up and drop-off locations
+        - Pick-up and drop-off locations
+
+        
     - Trip distances
     - Itemized fares
     - Rate types
