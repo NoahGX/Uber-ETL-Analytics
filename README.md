@@ -46,11 +46,10 @@ More information about the dataset is available on the NYC Taxi and Limousine Co
 
 ## Output
 The processed data is stored in BigQuery, enabling efficient querying and analysis. Key outputs include:
-    - **Analytics Table**: A consolidated table in BigQuery that combines various dimensions such as trip details, passenger counts, rates, locations, and payment types. citeturn0search2
+    - **Analytics Table**: A consolidated table in BigQuery that combines various dimensions such as trip details, passenger counts, rates, locations, and payment types.
     - **Visualizations**: Interactive dashboards and reports created in Looker Studio, providing insights into trip patterns, fare distributions, and other relevant metrics.
 
-## 7. Notes
-- **Data Pipeline Implementation**: Detailed implementation of the data pipeline is provided in the Jupyter Notebook: citeturn0search3
-- **Command Reference**: A list of commands used for setting up the environment and tools is available in the `commands.txt` file: citeturn0search4
+## Notes
+- **Data Pipeline Implementation**: Detailed implementation of the data pipeline is provided in the Jupyter Notebooks.
+- **Command Reference**: A list of commands used for setting up the environment and tools is available in the `commands.txt` file.
 - **Data Model**: The project's data model is depicted in the `data_model.jpeg` file, illustrating the relationships between different data entities.
-- **Architecture Diagram**: An overview of the project's architecture is provided in the `architecture.jpg` file, showcasing the integration of various components.
