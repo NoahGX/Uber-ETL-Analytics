@@ -38,14 +38,14 @@ The project utilizes the TLC Trip Record Data, which includes yellow and green t
 - Itemized fares
 - Rate types
 - Payment types
-- Driver-reported passenger counts
-The specific dataset used in this project can be found here:/
+- Driver-reported passenger counts/
+The specific dataset used in this project can be found here: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page/
 More information about the dataset is available on the NYC Taxi and Limousine Commission website.
 
 ## Output
 The processed data is stored in BigQuery, enabling efficient querying and analysis. Key outputs include:
-    - **Analytics Table**: A consolidated table in BigQuery that combines various dimensions such as trip details, passenger counts, rates, locations, and payment types.
-    - **Visualizations**: Interactive dashboards and reports created in Looker Studio, providing insights into trip patterns, fare distributions, and other relevant metrics.
+- **Analytics Table**: A consolidated table in BigQuery that combines various dimensions such as trip details, passenger counts, rates, locations, and payment types.
+- **Visualizations**: Interactive dashboards and reports created in Looker Studio, providing insights into trip patterns, fare distributions, and other relevant metrics.
 
 ## Notes
 - **Data Pipeline Implementation**: Detailed implementation of the data pipeline is provided in the Jupyter Notebooks.
